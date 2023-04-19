@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="index.js"></script>
+    <title>Jogo de Advinhar</title>
+</head>
+<body>
+    <div>
+        <h1>Jogo de Advinhar o Resultado da Partida</h1>
+        <p>Você tem 10 tentativas</p>
+        <p>Resultado entre 0x0 e 10x10</p>
+        <div style="background-color: #87ceeb;">
+
+            <div class="menu-brazil">
+                <p class="selecao-titulo">Brasil</p>
+                <input type="number" max="10" id="input-brazil">
+            </div>
+
+            <p class="separator">X</p>
+
+            <div class="menu-alemanha">
+                <p class="selecao-titulo">Alemanha</p>
+                <input type="number" max="10" id="input-alemanha">
+            </div>
+
+            <div class="botoes">
+                <input type="button" value="Verificar" id="verificar">
+                <input type="button" value="Reiniciar" id="restart">
+            </div>
+
+            <div id="esconder">
+                <p id = "flag-tentativa">Flag acerto</p>
+                <p id ="palpites">Palpites Anteriores: </p>
+                <p id="dica"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

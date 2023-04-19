@@ -1,0 +1,15 @@
+.selecao-titulo{
+    font-weight: bold;
+}
+
+.botoes{
+    display: block;
+}
+
+.menu-brazil, .menu-alemanha, .separator {
+    display: inline-block;
+}
+
+#esconder {
+    display: none;
+}
