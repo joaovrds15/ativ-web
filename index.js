@@ -1,8 +1,5 @@
-// let golBrazil = Math.floor(Math.random() * 11);
-// let golAlemnha = Math.floor(Math.random() * 11);
-
-let golBrazil = 2;
-let golAlemnha = 2;
+let golBrazil = Math.floor(Math.random() * 11);
+let golAlemnha = Math.floor(Math.random() * 11);
 let tentativas = 1;
 
 document.addEventListener('DOMContentLoaded', function() {
